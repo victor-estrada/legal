@@ -8,8 +8,37 @@
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
+.bg-light {
+  background-color: #f1c40f !important;
+}
+
+.navbar {
+  padding: 8px 4px 8px 8px;
+}
+
+.navbar-light .navbar-brand {
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-variant: small-caps;
+  color: #ecf0f1;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.50);
+}
+
+.nav-link {
+  margin-top: 5px;
+  padding: 0;
+}
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
 
   .bg-light {
     background-color: #f1c40f !important;
@@ -29,12 +58,6 @@
     margin-top: 5px;
     padding: 0;
   }
-
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-
 
 }
 

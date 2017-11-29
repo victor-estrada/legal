@@ -6,6 +6,7 @@
 // Extra small devices  ... (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 .jumbotron {
+  margin-top: 56px;
   background-image: url("mom-in-grass-mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,10 +16,10 @@
 
   .display-3 {
     margin-left: 10%;
-    margin-top: 85px;
+    margin-top: 40px;
     font-family: 'Catamaran', sans-serif;
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 32px;
+    line-height: 32px;
     color: #ecf0f1;
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
   }
@@ -27,26 +28,27 @@
 #banner-logo {
   margin-top: 175px;
   left: 50%;
-  margin-left: -100px;
+  margin-left: -95px;
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  background: #2C3E50;
-  box-shadow: -2px 3px 5px 0 rgba(0,0,0,0.50);
+  width: 190px;
+  height: 190px;
+  background: #34495e;
+  box-shadow: -3px 4px 6px 0 rgba(0,0,0,0.50);
 
   .card-title {
-    margin-top: 30px;
+    margin-top: 10px;
     font-family: 'Playfair Display', serif;
-    font-size: 18px;
-    color: #f1c40f;
+    font-size: 28px;
+    line-height: 26px;
+    color: #ecf0f1;
     text-align: center;
     font-variant: small-caps;
   }
   .card-text {
     font-family: 'Playfair Display', serif;
-    font-size: 32px;
-    line-height: 34px;
-    color: #ecf0f1;
+    font-size: 22px;
+    line-height: 22px;
+    color: #f1c40f;
     text-align: center;
   }
 }
