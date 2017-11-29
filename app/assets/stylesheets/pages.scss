@@ -1,3 +1,303 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+.jumbotron {
+  background-image: url("mom-in-grass-mobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 465px;
+  padding: 0;
+
+  .display-3 {
+    margin-left: 10%;
+    margin-top: 85px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 28px;
+    line-height: 28px;
+    color: #ecf0f1;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+  }
+}
+
+#banner-logo {
+  margin-top: 175px;
+  left: 50%;
+  margin-left: -100px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background: #2C3E50;
+  box-shadow: -2px 3px 5px 0 rgba(0,0,0,0.50);
+
+  .card-title {
+    margin-top: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: #f1c40f;
+    text-align: center;
+    font-variant: small-caps;
+  }
+  .card-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 34px;
+    color: #ecf0f1;
+    text-align: center;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+  .jumbotron {
+    background-image: url("mom-in-grass-landscape.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 375px;
+    padding: 0;
+
+    .display-3 {
+      margin-left: 65%;
+      margin-top: 85px;
+      font-family: 'Catamaran', sans-serif;
+      font-size: 28px;
+      line-height: 28px;
+      color: #ecf0f1;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    }
+  }
+
+  #banner-logo {
+    margin-top: 50px;
+    left: 80%;
+    margin-left: -100px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: #2C3E50;
+    box-shadow: -2px 3px 5px 0 rgba(0,0,0,0.50);
+
+    .card-title {
+      margin-top: 30px;
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      color: #f1c40f;
+      text-align: center;
+      font-variant: small-caps;
+    }
+    .card-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      line-height: 34px;
+      color: #ecf0f1;
+      text-align: center;
+    }
+  }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+  .jumbotron {
+    background-image: url("mom-in-grass-768.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    padding: 0;
+
+    .display-3 {
+      margin-left: 67%;
+      margin-top: 110px;
+      font-family: 'Catamaran', sans-serif;
+      font-size: 28px;
+      line-height: 28px;
+      color: #ecf0f1;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    }
+  }
+
+  #banner-logo {
+    margin-top: 255px;
+    margin-left: 73%;
+    left: 0;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: #2C3E50;
+    box-shadow: -2px 3px 5px 0 rgba(0,0,0,0.50);
+
+    .card-title {
+      margin-top: 30px;
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      color: #f1c40f;
+      text-align: center;
+      font-variant: small-caps;
+    }
+    .card-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      line-height: 34px;
+      color: #ecf0f1;
+      text-align: center;
+    }
+  }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .jumbotron {
+    background-image: url("mom-in-grass-992.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    padding: 0;
+
+    .display-3 {
+      margin-left: 67%;
+      margin-top: 90px;
+      font-family: 'Catamaran', sans-serif;
+      font-size: 28px;
+      line-height: 28px;
+      color: #ecf0f1;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    }
+  }
+
+  #banner-logo {
+    margin-top: 85px;
+    margin-left: 76%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: #2C3E50;
+    box-shadow: -2px 3px 5px 0 rgba(0,0,0,0.50);
+
+    .card-title {
+      margin-top: 30px;
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      color: #f1c40f;
+      text-align: center;
+      font-variant: small-caps;
+    }
+    .card-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      line-height: 34px;
+      color: #ecf0f1;
+      text-align: center;
+    }
+  }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+  .jumbotron {
+    background-image: url("mom-in-grass-1200.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+
+    .display-3 {
+      margin-left: 73%;
+      margin-top: 180px;
+      font-family: 'Catamaran', sans-serif;
+      font-size: 32px;
+      line-height: 34px;
+      color: #ecf0f1;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    }
+  }
+
+  #banner-logo {
+    margin-left: 83%;
+    margin-top: 70px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: #2C3E50;
+    box-shadow: -2px 3px 5px 0 rgba(0,0,0,0.50);
+
+    .card-title {
+      margin-top: 30px;
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      color: #f1c40f;
+      text-align: center;
+      font-variant: small-caps;
+
+    }
+    .card-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      line-height: 34px;
+      color: #ecf0f1;
+      text-align: center;
+    }
+  }
+
+}
+
+// Super large devices (large desktops, 1440px and up)
+@media (min-width: 1440px) {
+
+  .jumbotron {
+    background-image: url("mom-in-grass-1440.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+
+    .display-3 {
+      margin-left: 70%;
+      margin-top: 150px;
+      font-family: 'Catamaran', sans-serif;
+      font-size: 40px;
+      line-height: 40px;
+      color: #ecf0f1;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    }
+  }
+
+  #banner-logo {
+    margin-left: 80%;
+    margin-top: 85px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: #2C3E50;
+    box-shadow: -2px 3px 5px 0 rgba(0,0,0,0.50);
+
+    .card-title {
+      margin-top: 30px;
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      color: #f1c40f;
+      text-align: center;
+      font-variant: small-caps;
+
+    }
+    .card-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      line-height: 34px;
+      color: #ecf0f1;
+      text-align: center;
+    }
+  }
+
+}
