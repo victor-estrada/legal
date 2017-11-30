@@ -9,7 +9,6 @@
 // No media query since this is the default in Bootstrap
 
 .bg-light {
-
     background: #F2994A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f1c40f, #e67e22);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f1c40f, #e67e22); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -17,6 +16,19 @@
 
 .navbar {
   padding: 2px 2px 4px 4px;
+
+  .btn-primary {
+    background-color: #34495e;
+    border-color: #34495e;
+    border-radius: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.50);
+  }
+
+  a.btn-primary {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+    letter-spacing: .5px;
+  }
 }
 
 .navbar-light .navbar-brand {
@@ -27,6 +39,12 @@
   margin-top: 5px;
   padding: 0;
 }
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0,0,0,0);
+}
+
+
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {

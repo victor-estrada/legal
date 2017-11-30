@@ -7,6 +7,7 @@
 // No media query since this is the default in Bootstrap
 .jumbotron {
   margin-top: 56px;
+  margin-bottom: 0;
   background-image: url("mom-in-grass-mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,17 +28,15 @@
 }
 
 #banner-logo {
-  margin-top: 165px;
+  margin-top: 175px;
   left: 50%;
   margin-left: -125px;
   border-radius: 15%;
   width: 250px;
   height: 225px;
-
   background: #F2994A;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f1c40f, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f1c40f, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: -webkit-linear-gradient(to bottom right, #f1c40f, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom right, #f1c40f, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: -2px 3px 4px 0 rgba(0,0,0,0.50);
 
   .card-title {
@@ -79,9 +78,13 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     letter-spacing: .5px;
-    color: #f1c40f;
+    color: #34495e;
   }
+}
 
+#intro-section {
+  height: 500px;
+  background: #f9f9f9;
 }
 
 // Small devices (landscape phones, 576px and up)
