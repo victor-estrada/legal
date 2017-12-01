@@ -38,6 +38,8 @@
   background: -webkit-linear-gradient(to bottom right, #f1c40f, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom right, #f1c40f, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: -2px 3px 4px 0 rgba(0,0,0,0.50);
+  -webkit-animation: contentFade 5s; /* Safari 4.0 - 8.0 */
+  animation: contentFade 3s;
 
   .card-title {
     margin-top: 5px;
@@ -80,6 +82,18 @@
     letter-spacing: .5px;
     color: #34495e;
   }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes contentFade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes contentFade {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 #intro-section {

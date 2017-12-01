@@ -16,8 +16,10 @@
 
 .navbar {
   padding: 2px 2px 4px 4px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
 
   .btn-primary {
+    padding: 0;
     background-color: #34495e;
     border-color: #34495e;
     border-radius: 0;
@@ -41,7 +43,7 @@
   color: #ecf0f1;
   border-color: rgba(0,0,0,0);
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: .5px;
 }
 
