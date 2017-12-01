@@ -10,8 +10,8 @@
 
 .bg-light {
     background: #F2994A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f1c40f, #e67e22);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f1c40f, #e67e22); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to bottom right, #f1c40f, #e67e22);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom right, #f1c40f, #e67e22); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar {
@@ -20,9 +20,11 @@
 
   .btn-primary {
     padding: 0;
-    background-color: #34495e;
-    border-color: #34495e;
+    background: #ecf0f1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f9f9f9, #ecf0f1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f9f9f9, #ecf0f1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 0;
+    border-color: #ecf0f1;
     box-shadow: 0 2px 4px rgba(0,0,0,0.50);
     width: 60px;
     height: 30px;
@@ -40,10 +42,10 @@
 
 .navbar-light .navbar-toggler {
   margin-right: 10px;
-  color: #ecf0f1;
+  color: #34495e;
   border-color: rgba(0,0,0,0);
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: .5px;
 }
 
