@@ -1,5 +1,6 @@
 // Custom variables
-
+$body-bg: #f9f9f9;
+$font-family-sans-serif: Catamaran;
 
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import 'bootstrap';
@@ -9,14 +10,13 @@
 // No media query since this is the default in Bootstrap
 
 .bg-light {
-    background: #F2994A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom right, #f1c40f, #e67e22);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom right, #f1c40f, #e67e22); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar {
-  padding: 2px 2px 4px 4px;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  margin: 0 0 0 0;
+  padding: 0 24px 6px 24px;
+  background-color: #f9f9f9;
+  height: 62px;
 
   .btn-primary {
     padding: 0;
@@ -32,11 +32,24 @@
 }
 
 .navbar-light .navbar-brand {
+  margin: 0 0 0 12px;
   padding: 0;
+  font-family: PlayfairDisplay;
+  font-size: 32px;
+  color: #F1C40F;
+  letter-spacing: 0;
+  line-height: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 0 24px 0 24px;
+  font-family: Catamaran-Regular;
+  font-size: 18px;
+  color: #2C3E50;
 }
 
 .nav-link {
-  margin-top: 5px;
+  margin-top: 30px;
   padding: 0;
 }
 
@@ -61,21 +74,14 @@
 @media (min-width: 768px) {
 
   .bg-light {
-    background-color: #f1c40f !important;
   }
 
   .navbar-light .navbar-brand {
-    padding: 0;
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
-    font-weight: 700;
-    font-variant: small-caps;
-    color: #ecf0f1;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    margin-top: 16px;
   }
 
   .nav-link {
-    margin-top: 5px;
+    margin-top: 30px;
     padding: 0;
   }
 

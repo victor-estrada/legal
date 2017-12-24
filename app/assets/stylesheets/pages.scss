@@ -5,15 +5,16 @@
 
 // Extra small devices  ... (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
+
+
 .jumbotron {
-  margin-top: 56px;
-  margin-bottom: 0;
+  margin: 0 30px 0 30px;
   background-image: url("mom-in-grass-mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 465px;
-  padding: 0;
+  padding: 5px;
 
   .display-3 {
     margin-left: 10%;
@@ -25,75 +26,6 @@
     color: #ecf0f1;
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
   }
-}
-
-#banner-logo {
-  margin-top: 175px;
-  left: 50%;
-  margin-left: -150px;
-  border-radius: 50%;
-  width: 300px;
-  height: 250px;
-  background: #F2994A;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom right, #f1c40f, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom right, #f1c40f, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  box-shadow: -2px 3px 4px 0 rgba(0,0,0,0.50);
-  -webkit-animation: contentFade 5s; /* Safari 4.0 - 8.0 */
-  animation: contentFade 3s;
-
-  .card-title {
-    margin-top: 25px;
-    margin-bottom: 5px;
-    font-family: 'Catamaran', sans-serif;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 38px;
-    color: #f2f2f2;
-    text-align: center;
-    text-shadow: 0 3px 5px rgba(0,0,0,0.50);
-  }
-  .card-text {
-    margin-bottom: 20px;
-    font-family: 'Playfair Display', serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 18px;
-    color: #ecf0f1;
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.50);
-  }
-
-  .btn-outline-light {
-    margin-top: 10px;
-    padding-top: 8px;
-    width: 140px;
-    height: 40px;
-    background: #ecf0f1;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #f9f9f9, #ecf0f1);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #f9f9f9, #ecf0f1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-radius: 0;
-    border-color: #ecf0f1;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.50);
-  }
-
-  a.btn-outline-light {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
-    letter-spacing: .5px;
-    color: #34495e;
-  }
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes contentFade {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-/* Standard syntax */
-@keyframes contentFade {
-  from {opacity: 0;}
-  to {opacity: 1;}
 }
 
 #intro-section {
@@ -123,33 +55,6 @@
     }
   }
 
-  #banner-logo {
-    margin-top: 50px;
-    left: 80%;
-    margin-left: -100px;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    background: #2C3E50;
-    box-shadow: -2px 3px 5px 0 rgba(0,0,0,0.50);
-
-    .card-title {
-      margin-top: 30px;
-      font-family: 'Playfair Display', serif;
-      font-size: 18px;
-      color: #f1c40f;
-      text-align: center;
-      font-variant: small-caps;
-    }
-    .card-text {
-      font-family: 'Playfair Display', serif;
-      font-size: 32px;
-      line-height: 34px;
-      color: #ecf0f1;
-      text-align: center;
-    }
-  }
-
 }
 
 // Medium devices (tablets, 768px and up)
@@ -171,33 +76,6 @@
       line-height: 28px;
       color: #ecf0f1;
       text-shadow: 0 2px 4px rgba(0,0,0,0.50);
-    }
-  }
-
-  #banner-logo {
-    margin-top: 255px;
-    margin-left: 73%;
-    left: 0;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    background: #2C3E50;
-    box-shadow: -2px 3px 5px 0 rgba(0,0,0,0.50);
-
-    .card-title {
-      margin-top: 30px;
-      font-family: 'Playfair Display', serif;
-      font-size: 18px;
-      color: #f1c40f;
-      text-align: center;
-      font-variant: small-caps;
-    }
-    .card-text {
-      font-family: 'Playfair Display', serif;
-      font-size: 32px;
-      line-height: 34px;
-      color: #ecf0f1;
-      text-align: center;
     }
   }
 
@@ -224,79 +102,55 @@
     }
   }
 
-  #banner-logo {
-    margin-top: 85px;
-    margin-left: 76%;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    background: #2C3E50;
-    box-shadow: -2px 3px 5px 0 rgba(0,0,0,0.50);
-
-    .card-title {
-      margin-top: 30px;
-      font-family: 'Playfair Display', serif;
-      font-size: 18px;
-      color: #f1c40f;
-      text-align: center;
-      font-variant: small-caps;
-    }
-    .card-text {
-      font-family: 'Playfair Display', serif;
-      font-size: 32px;
-      line-height: 34px;
-      color: #ecf0f1;
-      text-align: center;
-    }
-  }
-
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
 
-  .jumbotron {
-    background-image: url("mom-in-grass-1200.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 600px;
+  #home-banner {
+    .jumbotron {
+      background-image: url("mom-in-grass-1200.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 600px;
 
-    .display-3 {
-      margin-left: 73%;
-      margin-top: 180px;
-      font-family: 'Catamaran', sans-serif;
-      font-size: 32px;
-      line-height: 34px;
-      color: #ecf0f1;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
-    }
-  }
+      .display-3 {
+        margin-left: 30%;
+        margin-top: 160px;
+        font-family: 'Catamaran', sans-serif;
+        font-size: 32px;
+        line-height: 34px;
+        color: #ecf0f1;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+      }
 
-  #banner-logo {
-    margin-left: 83%;
-    margin-top: 70px;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    background: #2C3E50;
-    box-shadow: -2px 3px 5px 0 rgba(0,0,0,0.50);
+      .btn-block {
+        margin: 24px 0 18px 30%;
+        width: 397px;
+      }
 
-    .card-title {
-      margin-top: 30px;
-      font-family: 'Playfair Display', serif;
-      font-size: 18px;
-      color: #f1c40f;
-      text-align: center;
-      font-variant: small-caps;
+      .btn-lg {
+        padding: 10px 18px 6px 18px;
+        border-radius: 0;
+        font-family: 'Catamaran-Bold';
+        font-size: 24px;
+        letter-spacing: 1px;
+        height: 58px;
+      }
 
-    }
-    .card-text {
-      font-family: 'Playfair Display', serif;
-      font-size: 32px;
-      line-height: 34px;
-      color: #ecf0f1;
-      text-align: center;
+      .btn-default {
+        background: rgba(236, 240, 241, 0);
+        border: 3px solid #ecf0f1;
+        color: #ecf0f1;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+      }
+
+      .btn-primary {
+        background: rgba(236, 240, 241, .9);
+        border-color: #ecf0f1;
+        color: #2C3E50;
+      }
     }
   }
 
@@ -305,48 +159,200 @@
 // Super large devices (large desktops, 1440px and up)
 @media (min-width: 1440px) {
 
-  .jumbotron {
-    background-image: url("mom-in-grass-1440.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 700px;
+  #home-banner {
+    .jumbotron {
+      background-image: url("mom-in-grass-1440.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 0;
+      height: 700px;
 
-    .display-3 {
-      margin-left: 70%;
-      margin-top: 150px;
-      font-family: 'Catamaran', sans-serif;
-      font-size: 40px;
-      line-height: 40px;
-      color: #ecf0f1;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+      .display-3 {
+        /* Simplify the hard st: */
+        font-family: Catamaran-Medium;
+        font-size: 76px;
+        color: #ECF0F1;
+        letter-spacing: 1.2px;
+        line-height: 73px;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+      }
     }
   }
 
-  #banner-logo {
-    margin-left: 80%;
-    margin-top: 85px;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    background: #2C3E50;
-    box-shadow: -2px 3px 5px 0 rgba(0,0,0,0.50);
+  #banner-footer {
+    background-color: #f9f9f9;
+    margin: 0 30px;
+    height: 50px;
+    width: auto;
+    /* Wills & Estate Plann: */
+    font-family: Catamaran-Light;
+    font-size: 32px;
+    color: #2C3E50;
+    letter-spacing: 0;
+    text-align: right;  }
 
-    .card-title {
-      margin-top: 30px;
-      font-family: 'Playfair Display', serif;
-      font-size: 18px;
-      color: #f1c40f;
-      text-align: center;
-      font-variant: small-caps;
+  #planning-section {
+    background-color: #F1C40F;
+    margin: 0 30px;
+    height: 800px;
+    width: auto;
 
+    h1 {
+      margin: 140px 0 0 10%;
+      /* Life Planning Made S: */
+      font-family: Catamaran-Light;
+      font-size: 140px;
+      color: #2C3E50;
+      letter-spacing: -0.37px;
+      line-height: 124px;
     }
-    .card-text {
-      font-family: 'Playfair Display', serif;
-      font-size: 32px;
-      line-height: 34px;
-      color: #ecf0f1;
+
+    P {
+    margin: 180px 0 0 5%;
+      /* Lorem ipsum dolor si: */
+    font-family: Catamaran-Regular;
+    font-size: 48px;
+    color: #ECF0F1;
+    line-height: 64px;
+    width: 550px;
+    }
+  }
+
+  #home-table {
+    background-color: #f9f9f9;
+    margin: 160px 30px 80px 30px;
+    width: auto;
+
+    h2 {
+      padding: 0 0 60px 0;
+      /* Lorem ipsum dolor si: */
+      font-family: Catamaran-Medium;
+      font-size: 36px;
+      color: #F1C40F;
+      letter-spacing: -0.33px;
+      line-height: 42px;
       text-align: center;
+    }
+
+    table {
+
+      tr {
+      }
+
+      th {
+        padding: 24px 60px;
+        border: none;
+        font-family: Catamaran-Regular;
+        font-size: 36px;
+        font-weight: normal;
+        color: #2980B9;
+        letter-spacing: -0.33px;
+        line-height: 42px;
+      }
+
+      td {
+        padding: 42px 60px;
+        font-family: Catamaran-Regular;
+        font-size: 20px;
+        color: #2C3E50;
+        letter-spacing: -0.18px;
+        line-height: 30px;
+      }
+
+      .thead-inverse {
+        background-color: #ECF0F1;
+      }
+
+      #home-table-row-one {
+        background-color: rgba(41,128,185,0.14);
+      }
+
+      #home-table-row-two {
+        background: rgba(41,128,185,0.21);
+      }
+
+      #home-table-row-three {
+        background: rgba(41,128,185,0.28);
+      }
+    }
+  }
+
+  #secure-section {
+    margin: 160px 30px 160px 30px;
+    width: auto;
+
+    h1 {
+      font-family: Catamaran-Light;
+      font-size: 140px;
+      color: #2980B9;
+      letter-spacing: -0.37px;
+      line-height: 124px;
+      text-align: center;
+    }
+
+    h3 {
+      font-family: Catamaran-Regular;
+      font-size: 64px;
+      color: #2C3E50;
+      letter-spacing: -0.33px;
+      line-height: 73px;
+      text-align: center;
+    }
+  }
+
+  #help-section {
+    background-color: #2C3E50;
+    margin: 0 30px;
+    height: 800px;
+    width: auto;
+
+    h1 {
+      margin: 140px 0 0 10%;
+      /* Life Planning Made S: */
+      font-family: Catamaran-Light;
+      font-size: 140px;
+      color: #F1C40F;
+      letter-spacing: -0.37px;
+      line-height: 124px;
+    }
+
+    h3 {
+      margin: 180px 0 0 5%;
+        /* Lorem ipsum dolor si: */
+      font-family: Catamaran-Regular;
+      font-size: 48px;
+      color: #ECF0F1;
+      line-height: 64px;
+      width: 550px;
+    }
+  }
+
+  #home-contact-section {
+    .jumbotron {
+      margin: 30px 30px;
+      background-image: url("mom-child-contact.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 0;
+      height: 847px;
+    }
+
+    #contact-panel {
+      margin: 146px 0;
+      padding: 60px;
+      background: rgba(236, 240, 241, .63);
+      width: 524px;
+      height: 555px;
+    }
+
+    h3 {
+      font-family: PlayfairDisplay;
+      font-size: 32px;
+      color: #2C3E50;
+      letter-spacing: 0;
+      line-height: 0;
     }
   }
 
