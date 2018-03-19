@@ -8,35 +8,260 @@
 
 
 .jumbotron {
-  margin: 0 30px 0 30px;
+  margin: 0 0 0 0;
   background-image: url("mom-in-grass-mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 465px;
   padding: 5px;
+  border-radius: 0;
 
   .display-3 {
-    margin-left: 10%;
-    margin-top: 30px;
+    display: none;
+  }
+
+  .display-3-mobile {
+    margin: 258px 10% 0 10%;
     font-family: 'Catamaran', sans-serif;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 38px;
+    font-size: 32px;
+    line-height: 30px;
+    text-align: center;
     color: #ecf0f1;
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
   }
+
+  .btn-block {
+    margin: 12px 0 0 22%;
+    width: 200px;
+  }
+
+  .btn-lg {
+    padding: 6px 12px 6px 12px;
+    border-radius: 0;
+    font-family: 'Catamaran-Medium';
+    font-size: 18px;
+    letter-spacing: 1px;
+    height: 42px;
+  }
+
+  .btn-default {
+    background: #F1C40F;
+    border: 3px solid #F1C40F;;
+    color: #ecf0f1;
+  }
+
+  .btn-primary {
+    background: rgba(236, 240, 241, .9);
+    border-color: #ecf0f1;
+    color: #2C3E50;
+  }
 }
 
-#intro-section {
-  height: 500px;
-  background: #f9f9f9;
+#banner-footer {
+  background-color: #f9f9f9;
+  margin: 5px 0 0 0;
+  padding: 0;
+  height: 30px;
+  width: auto;
+  /* Wills & Estate Plann: */
+  font-family: Catamaran-Light;
+  font-size: 17px;
+  color: #2C3E50;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+#planning-section {
+  background-color: #F1C40F;
+  margin: 0 15px;
+  height: auto;
+  width: auto;
+
+  h1 {
+    margin: 50px 0 0 8%;
+    /* Life Planning Made S: */
+    font-family: Catamaran-Light;
+    font-size: 52px;
+    color: #2C3E50;
+    letter-spacing: -0.37px;
+    line-height: 52px;
+  }
+
+  P {
+  margin: 20px 0 50px 8%;
+    /* Lorem ipsum dolor si: */
+  font-family: Catamaran-Regular;
+  font-size: 22px;
+  color: #ECF0F1;
+  line-height: 42px;
+  width: auto;
+  }
+}
+
+#home-table {
+  background-color: #f9f9f9;
+  margin: 50px 0 50px 0;
+  width: auto;
+
+  h2 {
+    margin: 0 15px;
+    padding: 0 0 20px 0;
+    /* Lorem ipsum dolor si: */
+    font-family: Catamaran-Regular;
+    font-size: 30px;
+    color: #F1C40F;
+    letter-spacing: -0.33px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  table {
+
+    tr {
+    }
+
+    th {
+      padding: 12px 15px;
+      border: none;
+      font-family: Catamaran-Regular;
+      font-size: 22px;
+      font-weight: normal;
+      color: #2980B9;
+      letter-spacing: -0.33px;
+      line-height: 20px;
+    }
+
+    td {
+      padding: 21px 15px;
+      font-family: Catamaran-Regular;
+      font-size: 16px;
+      color: #2C3E50;
+      letter-spacing: -0.18px;
+      line-height: 20px;
+    }
+
+    .thead-inverse {
+      background-color: #ECF0F1;
+    }
+
+    #home-table-row-one {
+      background-color: rgba(41,128,185,0.14);
+    }
+
+    #home-table-row-two {
+      background: rgba(41,128,185,0.21);
+    }
+
+    #home-table-row-three {
+      background: rgba(41,128,185,0.28);
+    }
+  }
+}
+
+#secure-section {
+  margin: 50px 30px 50px 30px;
+  width: auto;
+
+  h1 {
+    font-family: Catamaran-Light;
+    font-size: 52px;
+    color: #2980B9;
+    letter-spacing: -0.37px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: Catamaran-Regular;
+    font-size: 30px;
+    color: #2C3E50;
+    letter-spacing: -0.33px;
+    line-height: 42px;
+    text-align: center;
+  }
+}
+
+#help-section {
+  background-color: #2C3E50;
+  margin: 0 15px;
+  height: auto;
+  width: auto;
+
+  h1 {
+    margin: 50px 0 0 8%;
+    /* Life Planning Made S: */
+    font-family: Catamaran-Light;
+    font-size: 52px;
+    color: #F1C40F;
+    letter-spacing: -0.37px;
+    line-height: 52px;
+  }
+
+  h3 {
+      margin: 20px 0 50px 8%;
+        /* Lorem ipsum dolor si: */
+      font-family: Catamaran-Regular;
+      font-size: 22px;
+      color: #ECF0F1;
+      line-height: 42px;
+      width: auto;
+  }
+}
+
+#home-contact-section {
+  .jumbotron {
+    margin: 0;
+    background-color: #f9f9f9;
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0;
+    height: 600px;
+  }
+
+  #contact-panel {
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+    width: auto;
+    height: auto;
+  }
+
+  h3 {
+    padding: 32px 0 16px 0;
+    font-family: PlayfairDisplay;
+    font-size: 24px;
+    color: #2C3E50;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 260px;
+  }
+}
+
+#home-footer {
+  background-color: #2C3E50;
+  height: 24px;
+
+  h6 {
+    padding: 5px 0 0 0;
+    font-size: 12px;
+    color: #F1C40F;
+    text-align: center;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 
   .jumbotron {
+    margin: 0 15px 0 15px;
     background-image: url("mom-in-grass-landscape.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,14 +269,230 @@
     height: 375px;
     padding: 0;
 
+    .display-3-mobile {
+      display: none;
+    }
+
     .display-3 {
+      display: block;
       margin-left: 65%;
       margin-top: 85px;
       font-family: 'Catamaran', sans-serif;
-      font-size: 28px;
-      line-height: 28px;
+      font-size: 34px;
+      line-height: 30px;
       color: #ecf0f1;
       text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    }
+
+    .btn-block {
+      margin: 12px 0 0 65%;
+      width: 160px;
+    }
+
+    .btn-lg {
+      padding: 6px 12px 6px 12px;
+      border-radius: 0;
+      font-family: 'Catamaran-Medium';
+      font-size: 18px;
+      letter-spacing: 1px;
+      height: 42px;
+    }
+
+    .btn-default {
+      background: rgba(236, 240, 241, 0);
+      border: 3px solid #ecf0f1;
+      color: #ecf0f1;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    }
+
+    .btn-primary {
+      background: rgba(236, 240, 241, .9);
+      border-color: #ecf0f1;
+      border: 3px solid transparent;
+      color: #2C3E50;
+    }
+  }
+
+  #banner-footer {
+    background-color: #f9f9f9;
+    margin: 5px 0 0 0;
+    padding: 0;
+    height: 30px;
+    width: auto;
+    /* Wills & Estate Plann: */
+    font-family: Catamaran-Light;
+    font-size: 20px;
+    color: #2C3E50;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  #planning-section {
+    background-color: #F1C40F;
+    margin: 0 15px;
+    height: auto;
+    width: auto;
+
+    h1 {
+      margin: 50px 0 0 8%;
+      /* Life Planning Made S: */
+      font-family: Catamaran-Light;
+      font-size: 64px;
+      color: #2C3E50;
+      letter-spacing: -0.37px;
+      line-height: 62px;
+    }
+
+    P {
+    margin: 20px 0 50px 8%;
+      /* Lorem ipsum dolor si: */
+    font-family: Catamaran-Regular;
+    font-size: 28px;
+    color: #ECF0F1;
+    letter-spacing: -0.33px;
+    line-height: 48px;
+    width: 400px;
+    }
+  }
+
+  #home-table {
+    background-color: #f9f9f9;
+    margin: 50px 0 50px 0;
+    width: auto;
+
+    h2 {
+      margin: 0;
+      padding: 0 0 20px 0;
+      /* Lorem ipsum dolor si: */
+      font-family: Catamaran-Regular;
+      font-size: 28px;
+      color: #F1C40F;
+      letter-spacing: -0.33px;
+      line-height: 48px;
+      text-align: center;
+    }
+
+    table {
+
+      tr {
+      }
+
+      th {
+        padding: 12px 15px;
+        border: none;
+        font-family: Catamaran-Regular;
+        font-size: 22px;
+        font-weight: normal;
+        color: #2980B9;
+        letter-spacing: -0.33px;
+        line-height: 20px;
+      }
+
+      td {
+        padding: 21px 15px;
+        font-family: Catamaran-Regular;
+        font-size: 16px;
+        color: #2C3E50;
+        letter-spacing: -0.18px;
+        line-height: 20px;
+      }
+
+      .thead-inverse {
+        background-color: #ECF0F1;
+      }
+
+      #home-table-row-one {
+        background-color: rgba(41,128,185,0.14);
+      }
+
+      #home-table-row-two {
+        background: rgba(41,128,185,0.21);
+      }
+
+      #home-table-row-three {
+        background: rgba(41,128,185,0.28);
+      }
+    }
+  }
+
+  #secure-section {
+    margin: 50px 30px 50px 30px;
+    padding: 0 5%;
+    width: auto;
+
+    h1 {
+      font-family: Catamaran-Light;
+      font-size: 64px;
+      color: #2980B9;
+      letter-spacing: -0.37px;
+      line-height: 56px;
+      text-align: center;
+    }
+
+    h3 {
+      font-family: Catamaran-Regular;
+      font-size: 28px;
+      color: #2C3E50;
+      letter-spacing: -0.33px;
+      line-height: 36px;
+      text-align: center;
+    }
+  }
+
+  #help-section {
+    background-color: #2C3E50;
+    margin: 0 15px;
+    height: auto;
+    width: auto;
+
+    h1 {
+      margin: 50px 0 0 8%;
+      /* Life Planning Made S: */
+      font-family: Catamaran-Light;
+      font-size: 64px;
+      color: #F1C40F;
+      letter-spacing: -0.37px;
+      line-height: 62px;
+    }
+
+    h3 {
+      margin: 20px 0 50px 8%;
+        /* Lorem ipsum dolor si: */
+      font-family: Catamaran-Regular;
+      font-size: 28px;
+      color: #ECF0F1;
+      letter-spacing: -0.33px;
+      line-height: 48px;
+      width: 400px;
+    }
+  }
+
+  #home-contact-section {
+    .jumbotron {
+      margin: 15px;
+      height: 600px;
+      background: none;
+    }
+
+    #contact-panel {
+      margin: 25px 0;
+      padding: 20px;
+      background: none;
+      width: auto;
+      height: auto;
+
+      iframe {
+        width: 468px;
+        height: 275px;
+      }
+    }
+
+    h3 {
+      font-family: PlayfairDisplay;
+      font-size: 36px;
+      color: #2C3E50;
+      letter-spacing: 0;
+      line-height: 26px;
     }
   }
 
@@ -61,21 +502,252 @@
 @media (min-width: 768px) {
 
   .jumbotron {
-    background-image: url("mom-in-grass-768.png");
+    margin: 0 30px 0 30px;
+    background-image: url("mom-in-grass-landscape.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 700px;
+    height: 375px;
     padding: 0;
 
+    .display-3-mobile {
+      display: none;
+    }
+
     .display-3 {
-      margin-left: 67%;
-      margin-top: 110px;
+      display: block;
+      margin: 65px 0 0 30%;
       font-family: 'Catamaran', sans-serif;
-      font-size: 28px;
-      line-height: 28px;
+      font-size: 44px;
+      line-height: 40px;
       color: #ecf0f1;
       text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    }
+    .btn-block {
+      margin: 18px 0 0 30%;
+      width: 217px;
+    }
+
+    .btn-lg {
+      padding: 10px 18px 6px 18px;
+      border-radius: 0;
+      font-family: 'Catamaran-Bold';
+      font-size: 24px;
+      letter-spacing: 1px;
+      height: 58px;
+    }
+
+    .btn-default {
+      background: rgba(236, 240, 241, 0);
+      border: 3px solid #ecf0f1;
+      color: #ecf0f1;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    }
+
+    .btn-primary {
+      background: rgba(236, 240, 241, .9);
+      border-color: #ecf0f1;
+      color: #2C3E50;
+    }
+  }
+
+  #banner-footer {
+    background-color: #f9f9f9;
+    margin: 5px 30px 0 30px;
+    height: 45px;
+    width: auto;
+    /* Wills & Estate Plann: */
+    font-family: Catamaran-Light;
+    font-size: 28px;
+    color: #2C3E50;
+    letter-spacing: 0;
+    text-align: right;  }
+
+  #planning-section {
+    background-color: #F1C40F;
+    margin: 0 30px;
+    height: 600px;
+    width: auto;
+
+    h1 {
+      margin: 70px 0 0 8%;
+      /* Life Planning Made S: */
+      font-family: Catamaran-Light;
+      font-size: 96px;
+      color: #2C3E50;
+      letter-spacing: -0.37px;
+      line-height: 112px;
+    }
+
+    P {
+    margin: 140px 0 0 18%;
+      /* Lorem ipsum dolor si: */
+    font-family: Catamaran-Regular;
+    font-size: 30px;
+    color: #ECF0F1;
+    line-height: 42px;
+    width: 280px;
+    }
+  }
+
+  #home-table {
+    background-color: #f9f9f9;
+    margin: 105px 15px 80px 15px;
+    width: auto;
+
+    h2 {
+      padding: 0 0 40px 0;
+      /* Lorem ipsum dolor si: */
+      font-family: Catamaran-Regular;
+      font-size: 30px;
+      color: #F1C40F;
+      letter-spacing: -0.33px;
+      line-height: 42px;
+      text-align: center;
+    }
+
+    table {
+
+      tr {
+      }
+
+      th {
+        padding: 24px 60px;
+        border: none;
+        font-family: Catamaran-Regular;
+        font-size: 36px;
+        font-weight: normal;
+        color: #2980B9;
+        letter-spacing: -0.33px;
+        line-height: 42px;
+      }
+
+      td {
+        padding: 42px 60px;
+        font-family: Catamaran-Regular;
+        font-size: 20px;
+        color: #2C3E50;
+        letter-spacing: -0.18px;
+        line-height: 30px;
+      }
+
+      .thead-inverse {
+        background-color: #ECF0F1;
+      }
+
+      #home-table-row-one {
+        background-color: rgba(41,128,185,0.14);
+      }
+
+      #home-table-row-two {
+        background: rgba(41,128,185,0.21);
+      }
+
+      #home-table-row-three {
+        background: rgba(41,128,185,0.28);
+      }
+    }
+  }
+
+  #secure-section {
+    margin: 100px 30px 100px 30px;
+    width: auto;
+
+    h1 {
+      font-family: Catamaran-Light;
+      font-size: 96px;
+      color: #2980B9;
+      letter-spacing: -0.37px;
+      line-height: 90px;
+      text-align: center;
+    }
+
+    h3 {
+      font-family: Catamaran-Regular;
+      font-size: 30px;
+      color: #2C3E50;
+      letter-spacing: -0.33px;
+      line-height: 42px;
+      text-align: center;
+    }
+  }
+
+  #help-section {
+    background-color: #2C3E50;
+    margin: 0 30px;
+    height: 600px;
+    width: auto;
+
+    h1 {
+      margin: 70px 0 0 8%;
+      /* Life Planning Made S: */
+      font-family: Catamaran-Light;
+      font-size: 96px;
+      color: #F1C40F;
+      letter-spacing: -0.37px;
+      line-height: 112px;
+    }
+
+    h3 {
+        margin: 165px 0 0 12%;
+        /* Lorem ipsum dolor si: */
+        font-family: Catamaran-Regular;
+        font-size: 30px;
+        color: #ECF0F1;
+        line-height: 42px;
+        width: 280px;
+    }
+  }
+
+  #home-contact-section {
+    .jumbotron {
+      margin: 15px;
+      background-image: url("mom-child-contact.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 0;
+      height: auto;
+    }
+
+    #contact-panel {
+      margin: 15px 15px 15px 0;
+      padding: 0 30px 15px 30px;
+      background: rgba(236, 240, 241, 8);
+      width: auto;
+      height: auto;
+
+      h3 {
+        font-family: PlayfairDisplay;
+        font-size: 28px;
+        color: #2C3E50;
+        letter-spacing: 0;
+        line-height: 26px;
+      }
+
+      h4 {
+        font-size: 18px;
+      }
+
+      h5 {
+        font-size: 14px;
+      }
+
+      iframe {
+        width: 100%;
+        height: 160px;
+      }
+    }
+  }
+
+  #home-footer {
+    height: 24px;
+
+    h6 {
+      padding: 5px 30px 0 0;
+      font-size: 12px;
+      color: #F1C40F;
+      text-align: right;
     }
   }
 
@@ -84,7 +756,7 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .jumbotron {
-    background-image: url("mom-in-grass-992.png");
+    background-image: url("mom-in-grass-992.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -92,16 +764,223 @@
     padding: 0;
 
     .display-3 {
-      margin-left: 67%;
-      margin-top: 90px;
+      margin-left: 30%;
+      margin-top: 105px;
       font-family: 'Catamaran', sans-serif;
-      font-size: 28px;
-      line-height: 28px;
+      font-size: 54px;
+      line-height: 46px;
       color: #ecf0f1;
       text-shadow: 0 2px 4px rgba(0,0,0,0.50);
     }
+    .btn-block {
+      margin: 18px 0 0 30%;
+      width: 277px;
+    }
+
+    .btn-lg {
+      padding: 10px 18px 6px 18px;
+      border-radius: 0;
+      font-family: 'Catamaran-Bold';
+      font-size: 24px;
+      letter-spacing: 1px;
+      height: 58px;
+    }
+
+    .btn-default {
+      background: rgba(236, 240, 241, 0);
+      border: 3px solid #ecf0f1;
+      color: #ecf0f1;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    }
+
+    .btn-primary {
+      background: rgba(236, 240, 241, .9);
+      border-color: #ecf0f1;
+      color: #2C3E50;
+    }
   }
 
+  #banner-footer {
+    background-color: #f9f9f9;
+    margin: 5px 30px 0 30px;
+    height: 45px;
+    width: auto;
+    /* Wills & Estate Plann: */
+    font-family: Catamaran-Light;
+    font-size: 28px;
+    color: #2C3E50;
+    letter-spacing: 0;
+    text-align: right;  }
+
+  #planning-section {
+    background-color: #F1C40F;
+    margin: 0 30px;
+    height: 700px;
+    width: auto;
+
+    h1 {
+      margin: 105px 0 0 10%;
+      /* Life Planning Made S: */
+      font-family: Catamaran-Light;
+      font-size: 120px;
+      color: #2C3E50;
+      letter-spacing: -0.37px;
+      line-height: 124px;
+    }
+
+    P {
+    margin: 165px 0 0 12%;
+      /* Lorem ipsum dolor si: */
+    font-family: Catamaran-Regular;
+    font-size: 36px;
+    color: #ECF0F1;
+    line-height: 48px;
+    width: 380px;
+    }
+  }
+
+  #home-table {
+    background-color: #f9f9f9;
+    margin: 105px 0 80px 0;
+    width: auto;
+
+    h2 {
+      padding: 0 0 40px 0;
+      /* Lorem ipsum dolor si: */
+      font-family: Catamaran-Regular;
+      font-size: 36px;
+      color: #F1C40F;
+      letter-spacing: -0.33px;
+      line-height: 42px;
+      text-align: center;
+    }
+
+    table {
+
+      tr {
+      }
+
+      th {
+        padding: 24px 60px;
+        border: none;
+        font-family: Catamaran-Regular;
+        font-size: 36px;
+        font-weight: normal;
+        color: #2980B9;
+        letter-spacing: -0.33px;
+        line-height: 42px;
+      }
+
+      td {
+        padding: 42px 60px;
+        font-family: Catamaran-Regular;
+        font-size: 20px;
+        color: #2C3E50;
+        letter-spacing: -0.18px;
+        line-height: 30px;
+      }
+
+      .thead-inverse {
+        background-color: #ECF0F1;
+      }
+
+      #home-table-row-one {
+        background-color: rgba(41,128,185,0.14);
+      }
+
+      #home-table-row-two {
+        background: rgba(41,128,185,0.21);
+      }
+
+      #home-table-row-three {
+        background: rgba(41,128,185,0.28);
+      }
+    }
+  }
+
+  #secure-section {
+    margin: 160px 30px 160px 30px;
+    width: auto;
+
+    h1 {
+      font-family: Catamaran-Light;
+      font-size: 120px;
+      color: #2980B9;
+      letter-spacing: -0.37px;
+      line-height: 104px;
+      text-align: center;
+    }
+
+    h3 {
+      font-family: Catamaran-Regular;
+      font-size: 36px;
+      color: #2C3E50;
+      letter-spacing: -0.33px;
+      line-height: 42px;
+      text-align: center;
+    }
+  }
+
+  #help-section {
+    background-color: #2C3E50;
+    margin: 0 30px;
+    height: 700px;
+    width: auto;
+
+    h1 {
+      margin: 105px 0 0 10%;
+      /* Life Planning Made S: */
+      font-family: Catamaran-Light;
+      font-size: 120px;
+      color: #F1C40F;
+      letter-spacing: -0.37px;
+      line-height: 124px;
+    }
+
+    h3 {
+        margin: 165px 0 0 12%;
+        /* Lorem ipsum dolor si: */
+        font-family: Catamaran-Regular;
+        font-size: 36px;
+        color: #ECF0F1;
+        line-height: 48px;
+        width: 380px;
+    }
+  }
+
+  #home-contact-section {
+    .jumbotron {
+      margin: 30px 15px;
+      background-image: url("mom-child-contact.png");
+    }
+
+    #contact-panel {
+      margin: 60px 30px 60px 0;
+      padding: 30px 30px;
+      background: rgba(236, 240, 241, .8);
+      width: auto;
+      height: auto;
+
+      h3 {
+      font-family: PlayfairDisplay;
+      font-size: 32px;
+      color: #2C3E50;
+      letter-spacing: 0;
+      line-height: 0;
+      }
+
+      h4 {
+        font-size: 24px;
+      }
+
+      h5 {
+        font-size: 16px;
+      }
+      iframe {
+        height: 200px;
+      }
+    }
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -109,7 +988,7 @@
 
   #home-banner {
     .jumbotron {
-      background-image: url("mom-in-grass-1200.png");
+      background-image: url("mom-in-grass-1440.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -119,9 +998,240 @@
         margin-left: 30%;
         margin-top: 160px;
         font-family: 'Catamaran', sans-serif;
-        font-size: 32px;
-        line-height: 34px;
+        font-size: 68px;
+        line-height: 56px;
         color: #ecf0f1;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+      }
+
+      .btn-block {
+        margin: 24px 0 18px 30%;
+        width: 347px;
+      }
+
+      .btn-lg {
+        padding: 10px 18px 6px 18px;
+        border-radius: 0;
+        font-family: 'Catamaran-Bold';
+        font-size: 24px;
+        letter-spacing: 1px;
+        height: 58px;
+      }
+
+      .btn-default {
+        background: rgba(236, 240, 241, 0);
+        border: 3px solid #ecf0f1;
+        color: #ecf0f1;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+      }
+
+      .btn-primary {
+        background: rgba(236, 240, 241, .9);
+        border-color: #ecf0f1;
+        color: #2C3E50;
+      }
+    }
+  }
+
+  #banner-footer {
+    background-color: #f9f9f9;
+    margin: 5px 30px 0 30px;
+    height: 45px;
+    width: auto;
+    /* Wills & Estate Plann: */
+    font-family: Catamaran-Light;
+    font-size: 28px;
+    color: #2C3E50;
+    letter-spacing: 0;
+    text-align: right;  }
+
+  #planning-section {
+    background-color: #F1C40F;
+    margin: 0 30px;
+    height: 700px;
+    width: auto;
+
+    h1 {
+      margin: 105px 0 0 10%;
+      /* Life Planning Made S: */
+      font-family: Catamaran-Light;
+      font-size: 140px;
+      color: #2C3E50;
+      letter-spacing: -0.37px;
+      line-height: 124px;
+    }
+
+    P {
+    margin: 165px 0 0 5%;
+      /* Lorem ipsum dolor si: */
+    font-family: Catamaran-Regular;
+    font-size: 48px;
+    color: #ECF0F1;
+    line-height: 64px;
+    width: 550px;
+    }
+  }
+
+  #home-table {
+    background-color: #f9f9f9;
+    margin: 105px 30px 80px 30px;
+    width: auto;
+
+    h2 {
+      padding: 0 0 60px 0;
+      /* Lorem ipsum dolor si: */
+      font-family: Catamaran-Medium;
+      font-size: 36px;
+      color: #F1C40F;
+      letter-spacing: -0.33px;
+      line-height: 42px;
+      text-align: center;
+    }
+
+    table {
+
+      tr {
+      }
+
+      th {
+        padding: 24px 60px;
+        border: none;
+        font-family: Catamaran-Regular;
+        font-size: 36px;
+        font-weight: normal;
+        color: #2980B9;
+        letter-spacing: -0.33px;
+        line-height: 42px;
+      }
+
+      td {
+        padding: 42px 60px;
+        font-family: Catamaran-Regular;
+        font-size: 20px;
+        color: #2C3E50;
+        letter-spacing: -0.18px;
+        line-height: 30px;
+      }
+
+      .thead-inverse {
+        background-color: #ECF0F1;
+      }
+
+      #home-table-row-one {
+        background-color: rgba(41,128,185,0.14);
+      }
+
+      #home-table-row-two {
+        background: rgba(41,128,185,0.21);
+      }
+
+      #home-table-row-three {
+        background: rgba(41,128,185,0.28);
+      }
+    }
+  }
+
+  #secure-section {
+    margin: 160px 30px 160px 30px;
+    width: auto;
+
+    h1 {
+      font-family: Catamaran-Light;
+      font-size: 120px;
+      color: #2980B9;
+      letter-spacing: -0.37px;
+      line-height: 104px;
+      text-align: center;
+    }
+
+    h3 {
+      font-family: Catamaran-Regular;
+      font-size: 42px;
+      color: #2C3E50;
+      letter-spacing: -0.33px;
+      line-height: 53px;
+      text-align: center;
+    }
+  }
+
+  #help-section {
+    background-color: #2C3E50;
+    margin: 0 30px;
+    height: 800px;
+    width: auto;
+
+    h1 {
+      margin: 140px 0 0 10%;
+      /* Life Planning Made S: */
+      font-family: Catamaran-Light;
+      font-size: 140px;
+      color: #F1C40F;
+      letter-spacing: -0.37px;
+      line-height: 124px;
+    }
+
+    h3 {
+      margin: 180px 0 0 5%;
+        /* Lorem ipsum dolor si: */
+      font-family: Catamaran-Regular;
+      font-size: 48px;
+      color: #ECF0F1;
+      line-height: 64px;
+      width: 550px;
+    }
+  }
+
+  #home-contact-section {
+    .jumbotron {
+      background-image: url("mom-child-contact.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 0;
+      height: auto;
+    }
+
+    #contact-panel {
+      margin: 60px 30px 60px 0;
+      padding: 60px;
+      width: auto;
+      height: auto;
+
+      h3 {
+        font-size: 36px;
+      }
+
+      h4 {
+        font-size: 28px;
+      }
+
+      h5 {
+        font-size: 18px;
+      }
+    }
+  }
+
+}
+
+// Super large devices (large desktops, 1440px and up)
+@media (min-width: 1440px) {
+
+  #home-banner {
+    .jumbotron {
+      background-image: url("mom-in-grass-1440.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 0;
+      height: 700px;
+
+      .display-3 {
+        /* Simplify the hard st: */
+        font-family: Catamaran-Medium;
+        font-size: 76px;
+        color: #ECF0F1;
+        letter-spacing: 1.2px;
+        line-height: 73px;
         text-shadow: 0 2px 4px rgba(0,0,0,0.50);
       }
 
@@ -154,31 +1264,6 @@
     }
   }
 
-}
-
-// Super large devices (large desktops, 1440px and up)
-@media (min-width: 1440px) {
-
-  #home-banner {
-    .jumbotron {
-      background-image: url("mom-in-grass-1440.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      border-radius: 0;
-      height: 700px;
-
-      .display-3 {
-        /* Simplify the hard st: */
-        font-family: Catamaran-Medium;
-        font-size: 76px;
-        color: #ECF0F1;
-        letter-spacing: 1.2px;
-        line-height: 73px;
-        text-shadow: 0 2px 4px rgba(0,0,0,0.50);
-      }
-    }
-  }
 
   #banner-footer {
     background-color: #f9f9f9;
@@ -330,21 +1415,17 @@
 
   #home-contact-section {
     .jumbotron {
-      margin: 30px 30px;
+      margin: 30px 15px;
       background-image: url("mom-child-contact.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       border-radius: 0;
-      height: 847px;
     }
 
     #contact-panel {
-      margin: 146px 0;
+      margin: 120px 60px 120px 0;
       padding: 60px;
-      background: rgba(236, 240, 241, .63);
-      width: 524px;
-      height: 555px;
     }
 
     h3 {
