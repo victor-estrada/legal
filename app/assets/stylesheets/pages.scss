@@ -9,32 +9,30 @@
 
 .jumbotron {
   margin: 0 0 0 0;
-  background-image: url("mom-in-grass-mobile.png");
+  background-image: url("mom-in-grass-mobile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 465px;
-  padding: 5px;
+  height: auto;
+  padding: 5px 6% 10% 6%;
   border-radius: 0;
 
-  .display-3 {
+  .tablet-banner-content {
     display: none;
   }
 
-  .display-3-mobile {
-    margin: 258px 10% 0 10%;
+  .display-3 {
+    margin: 272px 10% 0 10%;
     font-family: 'Catamaran', sans-serif;
     font-weight: 700;
     font-size: 32px;
     line-height: 30px;
-    text-align: center;
     color: #ecf0f1;
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
   }
 
   .btn-block {
-    margin: 12px 0 0 22%;
-    width: 200px;
+    margin: 12px 0 0 0;
   }
 
   .btn-lg {
@@ -43,19 +41,18 @@
     font-family: 'Catamaran-Medium';
     font-size: 18px;
     letter-spacing: 1px;
-    height: 42px;
   }
 
   .btn-default {
     background: #F1C40F;
-    border: 3px solid #F1C40F;;
+    border: 3px solid #ecf0f1;;
     color: #ecf0f1;
   }
 
   .btn-primary {
-    background: rgba(236, 240, 241, .9);
-    border-color: #ecf0f1;
-    color: #2C3E50;
+    background: #2C3E50;
+    border: 3px solid #ecf0f1;
+    color: #ecf0f1;
   }
 }
 
@@ -269,12 +266,15 @@
     height: 375px;
     padding: 0;
 
-    .display-3-mobile {
+    .mobile-banner-content {
       display: none;
     }
 
-    .display-3 {
+    .tablet-banner-content {
       display: block;
+    }
+
+    .display-3 {
       margin-left: 65%;
       margin-top: 85px;
       font-family: 'Catamaran', sans-serif;
@@ -957,7 +957,8 @@
     #contact-panel {
       margin: 60px 30px 60px 0;
       padding: 30px 30px;
-      background: rgba(236, 240, 241, .8);
+      background: rgba(236, 240, 241, 1);
+      border-radius: 10px;
       width: auto;
       height: auto;
 
