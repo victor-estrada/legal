@@ -36,7 +36,7 @@
   }
 
   .btn-lg {
-    padding: 6px 12px 6px 12px;
+    padding: 7px 12px 6px 12px;
     border-radius: 0;
     font-family: 'Catamaran-Medium';
     font-size: 18px;
@@ -290,16 +290,16 @@
     }
 
     .btn-lg {
-      padding: 6px 12px 6px 12px;
-      border-radius: 0;
+      padding: 7px 12px 6px 12px;
+      border-radius: 12px;
       font-family: 'Catamaran-Medium';
-      font-size: 18px;
+      font-size: 16px;
       letter-spacing: 1px;
-      height: 42px;
+      height: auto;
     }
 
     .btn-default {
-      background: rgba(236, 240, 241, 0);
+      background: rgba(236, 240, 241, .1);
       border: 3px solid #ecf0f1;
       color: #ecf0f1;
       text-shadow: 0 2px 4px rgba(0,0,0,0.50);
@@ -504,11 +504,7 @@
   .jumbotron {
     margin: 0 30px 0 30px;
     background-image: url("mom-in-grass-landscape.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     height: 375px;
-    padding: 0;
 
     .display-3-mobile {
       display: none;
@@ -517,11 +513,8 @@
     .display-3 {
       display: block;
       margin: 65px 0 0 30%;
-      font-family: 'Catamaran', sans-serif;
       font-size: 44px;
       line-height: 40px;
-      color: #ecf0f1;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
     }
     .btn-block {
       margin: 18px 0 0 30%;
@@ -529,25 +522,16 @@
     }
 
     .btn-lg {
-      padding: 10px 18px 6px 18px;
-      border-radius: 0;
-      font-family: 'Catamaran-Bold';
-      font-size: 24px;
-      letter-spacing: 1px;
-      height: 58px;
+      padding: 8px 18px 5px 18px;
+      font-size: 22px;
     }
 
     .btn-default {
-      background: rgba(236, 240, 241, 0);
-      border: 3px solid #ecf0f1;
-      color: #ecf0f1;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+
     }
 
     .btn-primary {
-      background: rgba(236, 240, 241, .9);
-      border-color: #ecf0f1;
-      color: #2C3E50;
+
     }
   }
 
@@ -757,16 +741,11 @@
 @media (min-width: 992px) {
   .jumbotron {
     background-image: url("mom-in-grass-992.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     height: 500px;
-    padding: 0;
 
     .display-3 {
       margin-left: 30%;
       margin-top: 105px;
-      font-family: 'Catamaran', sans-serif;
       font-size: 54px;
       line-height: 46px;
       color: #ecf0f1;
@@ -990,15 +969,11 @@
   #home-banner {
     .jumbotron {
       background-image: url("mom-in-grass-1440.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
       height: 600px;
 
       .display-3 {
         margin-left: 30%;
         margin-top: 160px;
-        font-family: 'Catamaran', sans-serif;
         font-size: 68px;
         line-height: 56px;
         color: #ecf0f1;
@@ -1220,10 +1195,6 @@
   #home-banner {
     .jumbotron {
       background-image: url("mom-in-grass-1440.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      border-radius: 0;
       height: 700px;
 
       .display-3 {

@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Catamaran);
+
 // Custom variables
 $body-bg: #f9f9f9;
 $font-family-sans-serif: Catamaran;
@@ -149,6 +151,15 @@ $font-family-sans-serif: Catamaran;
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+
+  .navbar {
+    height: 60px;
+  }
+
+  .nav-link {
+    margin-top: 26px;
+    padding: 0;
+  }
 
 
 }
