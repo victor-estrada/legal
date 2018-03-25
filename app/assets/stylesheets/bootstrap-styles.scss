@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Catamaran);
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Catamaran:300,400,500,700|Playfair+Display);
 
 // Custom variables
 $body-bg: #f9f9f9;
@@ -33,7 +32,8 @@ $font-family-sans-serif: Catamaran;
 .navbar-light .navbar-brand {
   margin: 0 0 0 0;
   padding: 0;
-  font-family: PlayfairDisplay;
+  font-family: 'PlayfairDisplay', serif;
+  font-weight: 400;
   font-size: 19px;
   color: #F1C40F;
   letter-spacing: 0;
