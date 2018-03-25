@@ -6,11 +6,7 @@ $font-family-sans-serif: Catamaran;
 @import 'bootstrap';
 
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-
-.bg-light {
-}
+// Extra small devices (IPhone 5, less than 360px)
 
 .navbar {
   margin: 0 6px;
@@ -32,7 +28,7 @@ $font-family-sans-serif: Catamaran;
   padding: 0;
   font-family: 'PlayfairDisplay', serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   color: #F1C40F;
   letter-spacing: 0;
   line-height: 0;
@@ -67,6 +63,14 @@ $font-family-sans-serif: Catamaran;
   background-color: #f9f9f9;
 }
 
+// Small devices (360px and up)
+@media (min-width: 360px) {
+
+.navbar-light .navbar-brand {
+  font-size: 18px;
+}
+
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
