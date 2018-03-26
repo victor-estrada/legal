@@ -6,6 +6,9 @@
 // Extra small devices  ... (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
+#home-banner {
+  padding: 0;
+}
 
 .jumbotron {
   margin: 0;

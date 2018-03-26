@@ -9,10 +9,8 @@ $font-family-sans-serif: Catamaran;
 // Extra small devices (IPhone 5, less than 360px)
 
 .navbar {
-  margin: 0 6px;
-  padding: 0;
+  padding: 12px;
   background-color: #f9f9f9;
-  height: 42px;
 
   .btn-primary {
     padding: 0;
@@ -24,7 +22,7 @@ $font-family-sans-serif: Catamaran;
 }
 
 .navbar-light .navbar-brand {
-  margin: 0 0 0 0;
+  margin: 0;
   padding: 0;
   font-family: 'PlayfairDisplay', serif;
   font-weight: 700;
@@ -36,15 +34,15 @@ $font-family-sans-serif: Catamaran;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  padding: 0 24px 0 24px;
+  padding: 0 0 12px 12px;
   font-family: 'Catamaran', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 18px;
   color: #2C3E50;
 }
 
 .nav-link {
-  margin-top: 30px;
+  margin: 6px 12px 0 0;
   padding: 0;
 }
 
@@ -60,7 +58,13 @@ $font-family-sans-serif: Catamaran;
 }
 
 .navbar-collapse {
+  padding: 18px 0 0 0;
   background-color: #f9f9f9;
+  text-align: right;
+}
+
+.navbar-nav {
+
 }
 
 // Small devices (360px and up)
