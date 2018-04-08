@@ -8,55 +8,55 @@
 
 #home-banner {
   padding: 0;
-}
 
-.jumbotron {
-  margin: 0;
-  background-image: url("mom-in-grass-mobile.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: auto;
-  padding: 5px 6% 10% 6%;
-  border-radius: 0;
+  .jumbotron {
+    margin: 0;
+    background-image: url("mom-in-grass-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    padding: 5px 6% 10% 6%;
+    border-radius: 0;
 
-  .tablet-banner-content {
-    display: none;
-  }
+    .tablet-banner-content {
+      display: none;
+    }
 
-  .display-3 {
-    margin: 272px 10% 0 10%;
-    font-family: 'Catamaran', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 30px;
-    color: #ecf0f1;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
-  }
+    .display-3 {
+      margin: 272px 10% 0 10%;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 30px;
+      color: #ecf0f1;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    }
 
-  .btn-block {
-    margin: 12px 0 0 0;
-  }
+    .btn-block {
+      margin: 12px 0 0 0;
+    }
 
-  .btn-lg {
-    padding: 7px 12px 6px 12px;
-    border-radius: 12px;
-    font-family: 'Catamaran', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 1px;
-  }
+    .btn-lg {
+      padding: 7px 12px 6px 12px;
+      border-radius: 12px;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
 
-  .btn-default {
-    background: #F1C40F;
-    border: 3px solid #ecf0f1;;
-    color: #ecf0f1;
-  }
+    .btn-default {
+      background: #F1C40F;
+      border: 3px solid #ecf0f1;;
+      color: #ecf0f1;
+    }
 
-  .btn-primary {
-    background: #2C3E50;
-    border: 3px solid #ecf0f1;
-    color: #ecf0f1;
+    .btn-primary {
+      background: #2C3E50;
+      border: 3px solid #ecf0f1;
+      color: #ecf0f1;
+    }
   }
 }
 
@@ -224,7 +224,7 @@
   .jumbotron {
     margin: 0;
     background: none;
-    height: 600px;
+    height: auto;
   }
 
     #contact-panel {
@@ -265,44 +265,46 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 
-  .jumbotron {
-    margin: 0 15px;
-    background-image: url("mom-in-grass-landscape.png");
-    height: 375px;
-    padding: 0;
+  #home-banner {
+    .jumbotron {
+      margin: 0 15px;
+      background-image: url("mom-in-grass-landscape.png");
+      height: 375px;
+      padding: 0;
 
-    .mobile-banner-content {
-      display: none;
-    }
+      .mobile-banner-content {
+        display: none;
+      }
 
-    .tablet-banner-content {
-      display: block;
-    }
+      .tablet-banner-content {
+        display: block;
+      }
 
-    .display-3 {
-      margin-left: 65%;
-      margin-top: 85px;
-      font-size: 28px;
-    }
+      .display-3 {
+        margin-left: 65%;
+        margin-top: 85px;
+        font-size: 28px;
+      }
 
-    .btn-block {
-      margin: 12px 0 0 65%;
-      width: 172px;
-    }
+      .btn-block {
+        margin: 12px 0 0 65%;
+        width: 172px;
+      }
 
-    .btn-lg {
-      border-radius: 12px;
-      font-size: 16px;
-    }
+      .btn-lg {
+        border-radius: 12px;
+        font-size: 16px;
+      }
 
-    .btn-default {
-      background: rgba(44, 62, 80, .1);
-      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
-    }
+      .btn-default {
+        background: rgba(44, 62, 80, .1);
+        text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+      }
 
-    .btn-primary {
-      background: rgba(236, 240, 241, .9);
-      color: #2C3E50;
+      .btn-primary {
+        background: rgba(236, 240, 241, .9);
+        color: #2C3E50;
+      }
     }
   }
 
@@ -393,37 +395,39 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 
-  .jumbotron {
-    margin: 0 30px;
-    background-image: url("mom-in-grass-landscape.png");
-    height: 375px;
+  #home-banner {
+    .jumbotron {
+      margin: 0 30px;
+      background-image: url("mom-in-grass-landscape.png");
+      height: 375px;
 
-    .display-3-mobile {
-      display: none;
-    }
+      .display-3-mobile {
+        display: none;
+      }
 
-    .display-3 {
-      display: block;
-      margin: 65px 0 0 30%;
-      font-size: 44px;
-      line-height: 40px;
-    }
-    .btn-block {
-      margin: 18px 0 0 30%;
-      width: 217px;
-    }
+      .display-3 {
+        display: block;
+        margin: 65px 0 0 30%;
+        font-size: 44px;
+        line-height: 40px;
+      }
+      .btn-block {
+        margin: 18px 0 0 30%;
+        width: 217px;
+      }
 
-    .btn-lg {
-      padding: 8px 18px 5px 18px;
-      font-size: 22px;
-    }
+      .btn-lg {
+        padding: 8px 18px 5px 18px;
+        font-size: 22px;
+      }
 
-    .btn-default {
+      .btn-default {
 
-    }
+      }
 
-    .btn-primary {
+      .btn-primary {
 
+      }
     }
   }
 
@@ -549,12 +553,9 @@
   }
 
   #home-footer {
-    height: 24px;
 
     h6 {
       padding: 5px 30px 0 0;
-      font-size: 12px;
-      color: #F1C40F;
       text-align: right;
     }
   }
@@ -563,27 +564,30 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  .jumbotron {
-    background-image: url("mom-in-grass-992.jpg");
-    height: 500px;
 
-    .display-3 {
-      margin-left: 30%;
-      margin-top: 105px;
-      font-size: 54px;
-      line-height: 46px;
-    }
+  #home-banner {
+    .jumbotron {
+      background-image: url("mom-in-grass-992.jpg");
+      height: 500px;
 
-    .btn-block {
-      margin: 18px 0 0 30%;
-      width: 277px;
-    }
+      .display-3 {
+        margin-left: 30%;
+        margin-top: 105px;
+        font-size: 54px;
+        line-height: 46px;
+      }
 
-    .btn-lg {
-      padding: 10px 18px 6px 18px;
-      border-radius: 0;
-      font-size: 24px;
-      height: 58px;
+      .btn-block {
+        margin: 18px 0 0 30%;
+        width: 277px;
+      }
+
+      .btn-lg {
+        padding: 10px 18px 6px 18px;
+        border-radius: 0;
+        font-size: 24px;
+        height: 58px;
+      }
     }
   }
 
