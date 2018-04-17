@@ -6,8 +6,11 @@
 // Extra small devices  ... (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
-#law-office-about-page .container-fluid {
-  padding: 0 15px;
+#law-office-about-page {
+
+  .container-fluid {
+    padding: 0 15px;
+  }
 
   p {
     margin: 20px 0;
@@ -31,12 +34,22 @@
     line-height: 52px;
   }
 
+  h3 {
+    margin: 36px 0 12px 0;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2C3E50;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
   h4 {
     margin: 36px 0 12px 0;
     font-family: 'Catamaran', sans-serif;
     font-weight: 400;
     font-size: 17px;
-    color: #2C3E50;
+    color: #34495e;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
@@ -48,6 +61,22 @@
     color: #1a1a1a;
     line-height: 20px;
     letter-spacing: 0;
+  }
+
+  h6 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #2C3E50;
+    line-height: 14px;
+    letter-spacing: 0;
+  }
+
+  .jumbotron {
+    background: #eef2f3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #dfe6e9, #eef2f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #dfe6e9, #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
 
 }
